@@ -7,3 +7,4 @@ fq_id=$4 ## fq data name
 
 cellranger count --id=$id --transcriptome=${ref_dir} --fastqs=${fq_dir} --sample=${fq_id}
 
+
