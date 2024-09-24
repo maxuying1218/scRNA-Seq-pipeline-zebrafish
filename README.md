@@ -2,8 +2,11 @@
 scRNA-Seq pipeline for a zebrafish dataset
 
 ## Software requirement
--cellranger
--R package: Seurat, ggplot2, tidyverse, monocle, SingleCellExperiment, reshape2
+- cellranger
+- R package: Seurat, ggplot2, tidyverse, monocle, SingleCellExperiment, reshape2
+
+## Pipeline workflow
+![image](https://github.com/maxuying1218/scRNA-Seq-pipeline-zebrafish/blob/main/figures/workflow.png)
 
 ## Step1 Mapping fastq reads
 Use cellranger to map reads and prepare expression matrix and barcode information.  
